@@ -14,7 +14,6 @@ import javax.persistence.Transient;
 @Table(name = "student")
 public class Student {
 	//Student Class new
-	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;

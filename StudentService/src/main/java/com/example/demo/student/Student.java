@@ -13,7 +13,7 @@ import javax.persistence.Transient;
 @Entity	
 @Table(name = "student")
 public class Student {
-	//Student Class
+	//Student Class new
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)

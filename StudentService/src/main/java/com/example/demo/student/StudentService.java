@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @ComponentScan("com.example.student.StudentRepository")
 public class StudentService {
-	
+	//Service Class
 	private final Logger logger = LoggerFactory.getLogger(StudentService.class);
 	
 	@Autowired

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class StudentConfig {
-	//Config Class
+	//Config Class Test
 	@Bean
 	CommandLineRunner commandLineRunner(StudentRepository repository) {
 		return new CommandLineRunner() {
